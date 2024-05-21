@@ -1,6 +1,4 @@
-body {
-    background-color: #8aaee0;
-}
+
 
 img {
     width: 400px;
@@ -8,10 +6,7 @@ img {
 }
 .barra-navegacion {
 background-color: #8aaee0;
-}
-
-.barra-navegacion {
-background-color: #8aaee0;
+color: black;
 }
 
 
@@ -21,7 +16,7 @@ background-color: #8aaee0;
 }
 
 .carousel-thumbnails img {
-    width: 100px; /* Tamaño de las miniaturas */
+    width: 100px; 
     height: 60px;
     object-fit: cover;
     cursor: pointer;

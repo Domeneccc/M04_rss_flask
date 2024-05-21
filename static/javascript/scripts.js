@@ -16,8 +16,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
     toggleButton.textContent = isDarkMode ? 'Modo Claro' : 'Modo Oscuro';
   });
 });
-
-function aumentarImagen(imagen) {
-    // Agrega la clase "ampliada" a la imagen al hacer clic
-    imagen.classList.toggle("ampliada");
-  }
