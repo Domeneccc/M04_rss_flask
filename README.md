@@ -11,6 +11,7 @@
 * RSS
 * Iteraciones
   - Iteracion 1
+  - Iteracion 2
 
 
 # Pasos antes de comenzar el projeto
@@ -129,4 +130,28 @@ un carrusel por cada seccion y finalmente hice que las noticias se organizaran e
             </div>
         </div>
     </nav>
+```
+
+### Carrusel:
+
+```
+<div id="carousel1" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/lavanguardia/deportes"><img src="../static/img/Deportes/futbol.jpeg"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/lavanguardia/deportes"><img src="../static/img/Deportes/formula1.jpeg"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/lavanguardia/deportes"><img src="../static/img/Deportes/bici.jpeg" ></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
 ```
