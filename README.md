@@ -12,6 +12,7 @@
 * Iteraciones
   - Iteracion 1
   - Iteracion 2
+  - Iteracion especial
 
 
 # Pasos antes de comenzar el projeto
@@ -183,3 +184,7 @@ div class="container">
         </div>
     </div>
 ```
+## Iteracion especial
+
+En esta iteracion es especial es para si quiero mas de un 8 y lo que he hecho ha sido unos cuantos puntos que a mi me parecian interesantes, que me gustaban y que me parecian faciles de aplicar 
+
