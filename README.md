@@ -87,10 +87,10 @@ Para comenzar la iterancon 1 lo que he hecho ha sido descargar el codigo esquele
 
 Despues he añadido el logo del la vanguardia en el documento la vanguardia.html con eñ siguiente codigo: 
 ```
-
+ <img src="{{rss.feed.image.url}}" alt="{{rss.feed.image.description}}" class="img-fluid mb-4 "/>
 ```
 
-Finalmente lo que he hecho ha sido meter la siguiente estructura 
+Finalmente lo que he hecho ha sido meter la siguiente estructura en el fichero lavanguardia.html
 ```
 Descripcion:
 Fecha de publicacion:
@@ -98,6 +98,35 @@ Ultima actualizacion:
 Autor:
 Categoria:
 ```
-
 ## Iteracion 2
 
+En la iteracion 2 en lo que se basaba era en meter boostrap , css y javascript. Para hacer la pagina mas bonita, lo que pedia era una barra de navegacion, un carrusel que yo he puesto uno por cada seccion y despues en las noticias hacer 4 columnas o menos dependiendo de lo grande que sea la pantalla. Lo primero lo que hice fue el cambio del color de fondo que lo puse azul y una barra de navegacion, despues puse  
+un carrusel por cada seccion y finalmente hice que las noticias se organizaran en 4 columas dependiendo del tamaño. A continuacion pondre ejemplos de codigo de cada parte.
+
+### Barra de navegacion:
+
+```
+ <nav class="navbar navbar-expand-lg  barra-navegacion">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lavanguardia/deportes"></i>Deportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lavanguardia/politica">Política</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lavanguardia/vida">Vida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lavanguardia/sucesos">Sucesos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/lavanguardia/tecnologia">Tecnología</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+```
