@@ -186,5 +186,61 @@ div class="container">
 ```
 ## Iteracion especial
 
-En esta iteracion es especial es para si quiero mas de un 8 y lo que he hecho ha sido unos cuantos puntos que a mi me parecian interesantes, que me gustaban y que me parecian faciles de aplicar 
+En esta iteracion es especial es para si quiero mas de un 8 y lo que he hecho ha sido unos cuantos puntos que a mi me parecian interesantes, que me gustaban y que me parecian faciles de aplicar yo los que he hecho han sido los siguientes:
+
+### Modo oscuro:
+codigo del boton
+```
+ <button id="mode-toggle"class="boton">Modo Oscuro</button>
+```
+codigo del javascript
+```
+document.addEventListener('DOMContentLoaded', (event) => {
+  const toggleButton = document.getElementById('mode-toggle');
+  const currentMode = localStorage.getItem('darkMode') || 'light';
+
+  if (currentMode === 'dark') {
+    document.body.classList.add('dark-mode');
+    toggleButton.textContent = 'Modo Claro';
+  } else {
+    toggleButton.textContent = 'Modo Oscuro';
+  }
+
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    localStorage.setItem('darkMode', isDarkMode ? 'dark' : 'light');
+    toggleButton.textContent = isDarkMode ? 'Modo Claro' : 'Modo Oscuro';
+  });
+});
+```
+### css personalizado: 
+Una pequeña parte de css
+````
+.carousel-item img {
+    width: 100%; 
+    object-fit: cover; 
+}
+
+.carousel-thumbnails img {
+    width: 100px; 
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 2px;}
+
+.boton {
+    background-color: #8aaee0;
+    border: none;
+}
+````
+### Iconos Awesome:
+
+Per problemes de version la font awesome no surt correctament pero esta en el codigo
+```
+<i class="fa-solid fa-moon"></i>
+```
+### Git con tags
+
+En este git hay unas diferencias de versiones la V0.9,V0.91...
 
