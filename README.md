@@ -65,15 +65,15 @@ I en este proyecto el **RSS** que utilizaremos sera el de la Vanguardia par incl
 [RSS](https://www.lavanguardia.com/rss)
 
 # Explicaion de  RSS remoto y local
-
+Para que funcione correctamente solo puede haber uno a la vez y el otro tiene que estar comentado para mas comodidad si tienes que cambiarlo rapido a continuacion explicare un poco los dos modos
 ## Local
-Para hacerlo de forma local hay que ir a el RSS de la Vanguardia y copiar el xml a mano y despues guardalo en rss/vanguardia y poner el nombre que le comresponga a cada xml y lo que pasa es que no se acutaliza es estatico.
+Para hacerlo de forma local hay que ir a el RSS de la Vanguardia y copiar el xml a mano y despues guardalo en rss/vanguardia y poner el nombre que le coresponga a cada xml y lo que pasa es que no se acutaliza es estatico y para hacerlo hay que poner la variable que ya ha sido creada de {seccio}.xml para que redirija correctamente.
 ```
 	### MODE LOCAL: versió que fa servir l'XML descarregat
 		xml = f"./rss/lavanguardia/{seccio}.xml"
 ```
 ## Remoto
-Para hacerlo de forma remota hay que ir a el RSS de la Vanguardia y copiar la url y ponerlo de una forma especifica
+Para hacerlo de forma remota hay que ir a el RSS de la Vanguardia y copiar la url y ponerlo la variable que ya ha sido creada de {seccio}.xml para que redirija automaticamente ahi
 ```
 	### MODE REMOT: versió on descarrega l'XML de la web
     		xml = f"https://www.lavanguardia.com/rss/{seccio}.xml"
