@@ -83,9 +83,12 @@ Para hacerlo de forma remota hay que ir a el RSS de la Vanguardia y copiar la ur
 
 ## Iteracion 1
 
-Para comenzar la iterancon 1 lo que he hecho ha sido descargar el codigo esqueleto del proyecto despues de hacer toda la instalacion esplicada anteriormente explicada. Primero lo que hice fue crear los dos nuevas sesiones simples y yo he añadidos sucesos y tecnologia.
+Para comenzar la iterancon 1 lo que he hecho ha sido descargar el codigo esqueleto del proyecto despues de hacer toda la instalacion esplicada anteriormente. Primero lo que hice fue crear los dos nuevas sesiones simples y yo he añadidos sucesos y tecnologia.
 
-Despues he añadido el logo del la vanguardia en el documento la vanguardia.html
+Despues he añadido el logo del la vanguardia en el documento la vanguardia.html con eñ siguiente codigo: 
+```
+
+```
 
 Finalmente lo que he hecho ha sido meter la siguiente estructura 
 ```
