@@ -17,11 +17,17 @@
 ## Creación del Ambiente Virtual con venv
 ```
 # Instalacion de ambiente virtual
-python -m venv .venv
+#windows
+    python -m venv .venv
+#linux
+    python3 -m venv .venv
 # Activacio del ambiente virtual
-.venv\Scripts\activate
+# Windows
+    .venv\Scripts\activate
+# Linux
+	source .venv/bin/activate
 # Desacitivar el ambiente
-desactivate
+    desactivate
 ```
 [Venv](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager)
 
