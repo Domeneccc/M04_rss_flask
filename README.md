@@ -34,9 +34,9 @@
 ## Instalacion del flask y feedparser
 ```
 # Instalacion de flask
-pip install flask
+	pip install flask
 # Instalacion de feedparser
-pip install feedparser
+	pip install feedparser
 ```
 
 # Flask y Jinja
