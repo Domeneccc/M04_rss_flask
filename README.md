@@ -155,3 +155,31 @@ un carrusel por cada seccion y finalmente hice que las noticias se organizaran e
             </button>
         </div>
 ```
+
+### Cartas y columnas:
+
+```
+div class="container">
+        <div class="row">
+            {% for item in rss.entries %}
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{item.link}}">{{item.title}}</a>
+                        </h5>
+                        {% for media in item.media_content %}
+                            <p><img src="{{media.url}}" alt="{{item.title}}" class="img-fluid"/></p>
+                        {% endfor %}
+                        <p class="card-text">Descripcio: {{item.description}}</p>
+                        <p class="card-text">Data Publicacio: {{item.published}}</p>
+                        <p class="card-text">Categoria: {{item.category}}</p>
+                        <p class="card-text">Autor: {{item.author}}</p>
+                        <p class="card-text">Ultima actualitzacio: {{item.modified}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+```
