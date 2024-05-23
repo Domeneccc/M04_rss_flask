@@ -60,3 +60,9 @@ body.dark-mode .navbar-brand {
     justify-content: space-between;
     align-items: center;
 }
+
+.card-body {
+
+    background-color: aliceblue;
+    border-radius: 50px;
+}
